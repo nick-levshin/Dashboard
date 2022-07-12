@@ -33,6 +33,7 @@ const ColorMapping = () => {
       <div className="w-full">
         <ChartComponent
           id="charts"
+          width='100%'
           primaryXAxis={ColorMappingPrimaryXAxis}
           primaryYAxis={ColorMappingPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}

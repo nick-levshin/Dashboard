@@ -28,6 +28,7 @@ const Bar = () => {
       <div className=" w-full">
         <ChartComponent
           id="charts"
+          width='100%'
           primaryXAxis={barPrimaryXAxis}
           primaryYAxis={barPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}

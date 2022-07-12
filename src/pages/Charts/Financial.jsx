@@ -38,6 +38,7 @@ const Financial = () => {
       <div className="w-full">
         <ChartComponent
           id="charts"
+          width='100%'
           primaryXAxis={FinancialPrimaryXAxis}
           primaryYAxis={FinancialPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}

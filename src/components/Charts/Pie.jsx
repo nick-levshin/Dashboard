@@ -12,7 +12,7 @@ import {
 
 import { useStateContext } from '../../contexts/ContextProvider';
 
-const Doughnut = ({ id, data, legendVisiblity, height }) => {
+const Doughnut = ({ id, data, legendVisiblity, height, width }) => {
   const { currentMode } = useStateContext();
 
   return (
@@ -20,6 +20,7 @@ const Doughnut = ({ id, data, legendVisiblity, height }) => {
       id={id}
       legendSettings={{ visible: legendVisiblity, background: 'white' }}
       height={height}
+      width={width}
       background={currentMode === 'Dark' ? '#33373E' : '#fff'}
       tooltip={{ enable: true }}
     >

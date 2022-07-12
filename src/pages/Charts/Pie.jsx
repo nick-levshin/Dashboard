@@ -12,7 +12,7 @@ const Pie = () => (
         data={pieChartData}
         legendVisiblity
         height="full"
-      />
+width='100%'      />
     </div>
   </div>
 );
